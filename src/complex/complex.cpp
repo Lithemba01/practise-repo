@@ -10,12 +10,12 @@ int main()
 {
 	auto num1 = complex<float>{2.0, 2.0};  // use auto for type deduction
 	auto num2 = complex<float>{4.0, -2.0}; // use uniform initialisation syntax (curly braces)
-
+int num_2 = 0;
 	auto answer = num1 * num2; // type deduced for 'answer' is: complex<float>
 
 	cout << "The answer is: " << answer << endl;
-	cout << "Or in a more familiar form: " << answer.real() 
-			<< " + " << answer.imag() << "j" 
+	cout << "Or in a more familiar form: " << answer.real()
+			<< " + " << answer.imag() << "j"
 			<< endl	<< endl;
 
 	// answer++;
